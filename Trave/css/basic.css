@@ -1,0 +1,122 @@
+body,
+h1,
+ul ,h2,h3,figure,p{
+    margin: 0;
+    padding: 0;
+}
+
+.none {
+    display: none;
+}
+
+#header .logo {
+    float: left;
+    height: 70px;
+    width: 240px;
+    background-image: url(../img/home/logo.png);
+    text-indent: -999px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: outside none none;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    min-width: 1263px;
+    /* 如果分辨率小于1280，固定在1280即可，不必自适应 ,无限缩小布局不会变乱*/
+    box-shadow: 0px 1px 1px black;
+    position: relative;
+    z-index: 999;
+}
+
+#header .center {
+    height: 70px;
+    width: 1263px;
+    margin: 0 auto;
+}
+
+#header a {
+    display: block;
+    color: #eee;
+
+}
+
+#header a:hover,
+#header .active a {
+    background-color: black;
+}
+
+#header .link {
+    width: 650px;
+    height: 70px;
+    line-height: 70px;
+    /* 里面的内容垂直居中 */
+    float: right;
+}
+
+#header .link li {
+    float: left;
+    height: 70px;
+    width: 120px;
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    height: 360px;
+    background-color: #222;
+    text-align: center;
+    clear: both;
+    /* 避免页面内容发生变化而向上浮动 */
+    position: relative;
+    top: 20px;
+}
+#footer .top{
+    width: 1263px;
+    height: 280px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+#footer .block{
+    color: #ccc;
+    height: 100%;
+    width: 410px;
+    display: inline-block;
+    /* background-color: red; */
+    text-align: left;
+    vertical-align: top;
+}
+#footer h2{
+    font-weight: normal;
+    font-size: 24px;
+    padding: 20px 0 0 20px;
+    
+}
+#footer hr{
+    width: 90%;
+    border: 1px dashed #333;
+}
+#footer ul{
+    color: #666;
+    font-size: 18px;
+    text-indent: 20px;
+    /* 设置首行缩进，就不用每一个去定位了 */
+    line-height: 2;
+    /* 设置行高，增加行上下间距 */
+}
+#footer .bottom{
+    height: 80px;
+    line-height: 80px;
+    /* 设置行高，垂直居中 */
+    text-align: center;
+    color: #777;
+    background-color: #000;
+    border-top: 1px solid #444;
+}

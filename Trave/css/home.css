@@ -1,73 +1,3 @@
-body,
-h1,
-ul ,h2,p{
-    margin: 0;
-    padding: 0;
-}
-
-.none {
-    display: none;
-}
-
-#header .logo {
-    float: left;
-    height: 70px;
-    width: 240px;
-    background-image: url(../img/home/logo.png);
-    text-indent: -999px;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: outside none none;
-}
-
-#header {
-    width: 100%;
-    height: 70px;
-    background-color: #333;
-    min-width: 1263px;
-    /* 如果分辨率小于1280，固定在1280即可，不必自适应 ,无限缩小布局不会变乱*/
-    box-shadow: 0px 1px 1px black;
-    position: relative;
-    z-index: 999;
-}
-
-#header .center {
-    height: 70px;
-    width: 1263px;
-    margin: 0 auto;
-}
-
-#header a {
-    display: block;
-    color: #eee;
-
-}
-
-#header a:hover,
-#header .active a {
-    background-color: black;
-}
-
-#header .link {
-    width: 650px;
-    height: 70px;
-    line-height: 70px;
-    /* 里面的内容垂直居中 */
-    float: right;
-}
-
-#header .link li {
-    float: left;
-    height: 70px;
-    width: 120px;
-    text-align: center;
-}
-
 #search {
     width: 100%;
     /* 宽度为100%，但缩小屏幕，小于1280时，底部依旧会出现滚动条 */
@@ -121,25 +51,29 @@ ul {
     outline: none;
     cursor: pointer;
 }
-#tour{
+
+#tour {
     width: 1263px;
     height: 1170px;
     /* background-color: red; */
     margin: 0 auto;
     text-align: center;
-    
+
 }
-#tour .center h2{
+
+#tour .center h2 {
     margin: 10px 0;
     font-size: 45px;
     letter-spacing: 2px;
     color: #666;
 }
-#tour .center p{
+
+#tour .center p {
     margin: 10px 0;
     color: #666;
 }
-#tour figure{
+
+#tour figure {
     border: 1px solid #ddd;
     display: inline-block;
     padding: 4px;
@@ -149,22 +83,26 @@ ul {
     position: relative;
     margin: 15px 12px;
 }
-#tour figure img{
+
+#tour figure img {
     vertical-align: middle;
     width: 380px;
 }
-#tour figcaption{
+
+#tour figcaption {
     color: #777;
     font-size: 14px;
     padding: 7px 0 5px 0;
     letter-spacing: 1px;
     line-height: 1.5;
 }
-#tour .title{
+
+#tour .title {
     color: #333;
     font-weight: normal;
 }
-#tour .sat{
+
+#tour .sat {
     float: right;
     font-size: 13px;
     font-style: normal;
@@ -173,15 +111,18 @@ ul {
     top: 5px;
     color: #999;
 }
-#tour .price{
+
+#tour .price {
     color: #f60;
     font-size: 14px;
 }
-#tour .price strong{
+
+#tour .price strong {
     font-size: 20px;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
-#tour .type{
+
+#tour .type {
     width: 90px;
     height: 25px;
     line-height: 25px;
@@ -195,52 +136,4 @@ ul {
     letter-spacing: 1px;
     border-bottom-right-radius: 4px;
 
-}
-#footer{
-    width: 100%;
-    height: 360px;
-    background-color: #222;
-    text-align: center;
-}
-#footer .top{
-    width: 1263px;
-    height: 280px;
-    text-align: center;
-    margin: 0 auto;
-}
-#footer .block{
-    color: #ccc;
-    height: 100%;
-    width: 410px;
-    display: inline-block;
-    /* background-color: red; */
-    text-align: left;
-    vertical-align: top;
-}
-#footer h2{
-    font-weight: normal;
-    font-size: 24px;
-    padding: 20px 0 0 20px;
-    
-}
-#footer hr{
-    width: 90%;
-    border: 1px dashed #333;
-}
-#footer ul{
-    color: #666;
-    font-size: 18px;
-    text-indent: 20px;
-    /* 设置首行缩进，就不用每一个去定位了 */
-    line-height: 2;
-    /* 设置行高，增加行上下间距 */
-}
-#footer .bottom{
-    height: 80px;
-    line-height: 80px;
-    /* 设置行高，垂直居中 */
-    text-align: center;
-    color: #777;
-    background-color: #000;
-    border-top: 1px solid #444;
 }

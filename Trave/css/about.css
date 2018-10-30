@@ -1,0 +1,35 @@
+#container .state {
+    float: left;
+    width: 920px;
+
+    /* background-color: pink; */
+}
+
+#container .state h2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: normal;
+    border-bottom: 1px dashed #999;
+    padding: 0 0 15px 0;
+    color: #666;
+}
+
+#container .state p {
+    font-size: 20px;
+    color: #666;
+    line-height: 2;
+    margin: 20px 0;
+
+}
+
+#container .state ul {}
+
+#container .state li {
+    font-style: normal;
+    font-size: 20px;
+    color: #666;
+    margin: 20px 0;
+    line-height: 1.6;
+
+}
