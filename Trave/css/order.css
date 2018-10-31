@@ -1,0 +1,170 @@
+#container .order {
+    width: 900px;
+    float: left;
+    color: #666;
+
+}
+
+#container .form .infor {
+    margin: 10px 0 0 0;
+    background-color: #fff;
+}
+
+#container .new ul,
+#container .new form {
+    margin: 20px 0 0 0;
+
+}
+
+#container .new {
+    margin: 0 0 20px 0;
+}
+
+#container .form h2,
+#container .new h2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: normal;
+    border-bottom: 1px dashed #999;
+    padding: 0 0 15px 0;
+    color: #666;
+}
+
+#container .form li,
+#container .new li {
+    display: inline-block;
+}
+#container .form ul li:nth-child(3) a{
+    color: #666;
+}
+#container .form ul li:nth-child(2) a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #458B00;
+    padding: 1px 4px;
+    border-radius: 4px;
+    margin: 0 10px 0 16px;
+
+}
+
+#container .form input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 18px;
+    color: #666;
+    margin: 0 0 0 16px;
+
+}
+
+#container .form .left {
+    width: 40%;
+    display: inline-block;
+}
+
+#container .form p {
+    line-height: 3;
+}
+
+#container .form .center {
+    width: 40%;
+    display: inline-block;
+}
+
+#container .form .right {
+    width: 10%;
+    display: inline-block;
+}
+
+#container .form .button {
+
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 4px;
+    background-color: #f60;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+
+}
+
+#container .new li,
+#container .form .infor li {
+    padding: 5px 10px;
+}
+
+#container .new li:nth-child(2) {
+    background-color: #458B00;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#container .new table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 0 0;
+    border: 1px solid #ddd;
+}
+
+#container .new table th {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+}
+
+#container .new table td {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#container .new table tr {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+}
+
+
+
+#container .new table tr:nth-child(2n) {
+    background-color: #eee;
+}
+
+#container .new table tr:hover {
+    background-color: #ccc;
+}
+
+#container .new table .reserve {
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px;
+    background-color: #f60;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+
+}
+
+#container .new table .price {
+    color: #f60;
+
+}
