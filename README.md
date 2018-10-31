@@ -1,5 +1,2 @@
 # TravelAgency
-飘城旅行社——HTML+CSS训练项目
-
-123
-456
+飘城旅行社——HTML+CSS  PC端固定布局训练项目
